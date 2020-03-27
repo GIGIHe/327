@@ -1,0 +1,280 @@
+<!doctype html>
+<html>  
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>2020多省公务员考试职位表查询_省考职位匹配_北京中公教育</title>
+		<meta name="renderer" content="webkit"/>
+		<meta name="Keywords" content="2020多省公务员考试职位表,2020多省公务员职位表,省考职位表查询,公务员考试职位有哪些" />
+		<meta name="Description" content="中公公务员考试网提供2020多省公务员考试职位表,包括多省公务员考试各地区职位,2020公务员职位表,多省部门职位匹配查询,热门职位竞争分析等。" />
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" name="viewport" id="viewport">
+		<meta name="applicable-device" content="mobile">
+		<link href="css/public.css" rel="stylesheet" type="text/css" />
+		<link href="css/index.css" rel="stylesheet" type="text/css" />
+		<script src="./js/jquery.min.js?gs"></script>
+		<script src="./js/bootstrap-typeahead.js?gs" type="text/javascript"></script>
+		<script src="./js/prettify.js?gs" type="text/javascript"></script>
+		<script src="./js/data.js" type="text/javascript"></script>
+		<!-- <script src="http://dl.offcn.com/aa/bj/data_kyfsx.js" type="text/javascript" charset="utf-8"></script> -->
+		<script src="./js/index.js" type="text/javascript"></script>
+		<script src="../js/storage.js" type="text/javascript"></script>
+		<script>
+			window.onresize = function() {
+				change()
+			}
+			function change() {
+
+				var deviceWidth = document.documentElement.clientWidth;
+
+				var deviceHeight = document.documentElement.clientHeight;
+
+				if(deviceWidth > 750) deviceWidth = 750;
+
+				document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+
+				$('.zg_wrapper').css('min-height', deviceHeight)
+
+			}
+
+			change();
+
+			function browserRedirect() {
+				var sUserAgent = navigator.userAgent.toLowerCase();
+				var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+				var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+				var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+				var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+				var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+				var bIsAndroid = sUserAgent.match(/android/i) == "android";
+				var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+				var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+				if(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+				}else{
+
+					// window.location.href = 'http://bj.offcn.com/zg/skzwjs/';
+
+				}
+
+			}
+
+			browserRedirect();
+
+		</script>
+		<!-- <script type="text/javascript" src="http://www.offcn.com/statics/js/sdc_offcn_wap.js"></script> -->
+	</head>
+	<body>
+		<div class="zg_cover"></div>
+		<section class="zg_wrapper">
+			<div class="top btn_wrap">
+				<a href="javascript:void(0)" class="register_btn"><span class="iconfont icon-zhuceyaoqing"></span>注册</a>
+				<a href="javascript:void(0)" class="login_btn"><span class="iconfont icon-zhanghaodenglu"></span>登录</a>
+			</div>
+			<div class="lginsecc">
+					欢迎您，<span>15210952796</span>！
+					<a href="javascript:;">注销登陆</a>
+			</div>
+			<!-- home -->
+			<div class="home_con clearfix">
+				<h1 class="home_title"><img src="images/title_img.png" class="title_img" alt="研究生分数线匹配查询"></h1>
+				<div class="user-box clearfloat clearfix">
+					<div class="user-item user-item-on-S">
+						<select name="info[year]" id="year">
+							<option value="">年份</option>
+						</select>
+					</div>
+					<div class="user-item user-item-on-S">
+						<select id="address"  name="info[address]">
+							<option value="">工作地区</option>
+						</select>
+					</div>
+					<div class="user-item user-item-on-S user-item-on-S1">
+						<select id="xueli" name="info[xueli]">
+							<option value="">学历</option>
+						</select>
+					</div>
+					<!-- <div class="user-item user-item-on-S">
+						<select id="zzmm" name="info[zzmm]">
+							<option value="">政治面貌</option>
+						</select>
+					</div> -->
+					<div class="user-item user-item-1">
+						<input class="user-content" id="zy" placeholder="输入自己的专业" autocomplete="off" value="专业不限">
+						<div class="item_check item_check_zy"><span></span>全部</div>
+					</div>
+					<div class="user-item user-item-2"> <button class="btn btn-submit" id="submit">查询职位</button> </div>
+					<input id="fenxiao" name="info[fenxiao]" type="hidden" autocomplete="off" />
+                	<input id="geneal" name="info[geneal]" type="hidden" autocomplete="off" />
+				</div>
+			</div>
+		</section>
+		<!-- 注册 登录 -->
+		<div class="container w3layouts agileits"> <span class="bd_close"></span>
+			<div class="bd_nav"> <span class="active">登录</span> <span>注册</span> </div>
+			<div class="login agileits" style="display: block;">
+				<form action="" method="post">
+					<!-- <div class="bd_line_wrap"> <input type="text" name="Userame" id="loginName" placeholder="用户名"> </div> -->
+					<div class="bd_line_wrap"> <input type="text" name="Phone" id="loginPhone" placeholder="手机号码"> </div>
+					<div class="bd_line_wrap send_button"> <input type="button" value="登 录" id="denglu" class="submintBtn"> <input type="hidden" value="" id="dlformid"> </div>
+				</form>
+			</div>
+
+			<div class="register agileits">
+				<form action="" method="post">
+					<div class="bd_line_wrap"> <input type="text" name="Name" id="username" placeholder="用户名" required> </div>
+					<div class="bd_line_wrap"> <input type="text" name="Phone" id="phone" placeholder="手机号码"> </div>
+					<div class="bd_line_wrap yzm_wrap"> <input type="text" name="Yzm" id="yzm" placeholder="验证码">
+						<a href="javascript:;" id="getyzm" class="yzm_btn" data="273" microsoft="">获取</a>
+						<div id="daojishi">120s以后重新获取</div>
+					</div>
+					<div class="bd_line_wrap"> 
+						<select name="province" id="province">
+							<option value="">请输入查询省份</option>
+							<option value="天津">天津</option>
+							<option value="海南">海南</option>
+							<option value="黑龙江">黑龙江</option>
+							<option value="吉林">吉林</option>
+							<option value="辽宁">辽宁</option>
+							<option value="湖北">湖北</option>
+							<option value="湖南">湖南</option>
+							<option value="江西">江西</option>
+							<option value="宁夏">宁夏</option>
+							<option value="青海">青海</option>
+							<option value="山西">山西</option>
+							<option value="陕西">陕西</option>
+							<option value="四川">四川</option>
+							<option value="云南">云南</option>
+							<option value="山东">山东</option>
+							<option value="安徽">安徽</option>
+							<option value="福建">福建</option>
+							<option value="广东">广东</option>
+							<option value="甘肃">甘肃</option>
+							<option value="广西">广西</option>
+							<option value="贵州">贵州</option>
+							<option value="河南">河南</option>
+							<option value="内蒙古">内蒙古</option>
+							<option value="深圳">深圳</option>
+							<option value="浙江">浙江</option>
+							<option value="上海">上海</option>
+							<option value="重庆市">重庆市</option>
+							<option value="新疆">新疆</option>
+							<option value="江苏">江苏</option>
+						</select>
+					</div>
+					<div class="bd_line_wrap send_button"> <input type="button" value="免费注册" id="zhuce" class="submintBtn"> <input type="hidden" value="273" id="zcformid"> </div>
+				</form>
+			</div>
+		</div>
+		<!-- 使用说明-->
+		<div class="zg_direction"> <span class="direction_close">&nbsp;</span>
+			<h6>使用说明</h6>
+			<ul class="direction_list">
+				<li> 1.本系统收录了2019年多省公务员考试职位表及各区各职位的专业要求，在2020多省公务员考试期间为您提供备考参考，了解您的专业在匹配到的职位以及该职位的学历要求，让您做到心中有数，及早备考！</li>
+				<li> 2.本系统是根据您的专业、学历及政治面貌等条件匹配2020年您能够报考的职位，若无匹配项，可点击全部开关，查看更多可报考职位！</li>
+				<li>3.本系统不收费，旨在为广大考生提供便利，但考虑到服务器压力，需要验证身份，方可查询！</li>
+				<li> 4.请尽量使用谷歌、火狐浏览器或者使用360浏览器、搜狗浏览器、QQ浏览器极速版，来提升您的使用体验！</li>
+				<li>5.如果您在使用过程中遇到了问题，请点击
+					<a onClick="NTKF.im_openInPageChat('kf_10353_1539669541476')" rel="nofollow" style="cursor: pointer;">在线咨询</a>或者拨打电话：010-82838321。</li>
+			</ul> <span class="direction_know">我知道了</span>
+		</div>
+		<!-- 表格的数据展示 -->
+		<div class="www"  style="display: none;">
+			<div class="databack"><img src="./images/back.png" alt="" class="back"></div>
+			<div class="datatip">
+				<h3>分数线查询结果</h3>
+				<p>系统为你找到<span class="data"></span>条数据</p>
+			</div>
+			<div class="table_wrap"></div>
+		</div>
+		<!-- 职位详情 -->
+		<div class="detail_wrap">
+			<h4>职位详情</h4>
+			<table class="detailtable">
+				<tr>
+					<td>年份</td>
+					<td class="detail_item1"></td>
+				</tr>
+
+				<tr>
+					<td>省份</td>
+					<td class="detail_item2"></td>
+				</tr>
+				<tr>
+					<td>地市</td>
+					<td class="detail_item3"></td>
+				</tr>
+				<tr>
+					<td>用人单位</td>
+					<td class="detail_item4"></td>
+				</tr>
+
+				<tr>
+					<td>职位名称</td>
+					<td class="detail_item5"></td>
+				</tr>
+
+				<tr>
+					<td>职位代码</td>
+					<td class="detail_item6"></td>
+				</tr>
+
+				<tr>
+					<td>职位简介</td>
+					<td class="detail_item7"></td>
+				</tr>
+				<tr>
+					<td>招录人数</td>
+					<td class="detail_item8"></td>
+				</tr>
+				<tr>
+					<td>学历</td>
+					<td class="detail_item9"></td>
+				</tr>
+				<tr>
+					<td>专业</td>
+					<td class="detail_item10"></td>
+				</tr>
+			</table>
+			<div class="zwxqBack">返回</div>
+		</div>
+
+		<!-- <script src="http://dl.offcn.com/aa/bj/gk_zwjs_dataList.js" type="text/javascript" charset="utf-8"></script> -->
+		<!-- <script src="http://dl.offcn.com/aa/bj/gk_zwjs_Xin_dataList.js" type="text/javascript" charset="utf-8"></script> -->
+		<!--数据-->
+		<script src="http://dl.offcn.com/aa/bj/dataList0327.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/data.js"></script>
+		<script src="./js/loginphp.js?122"></script>
+		<script src="./js/searchphp.js?434"></script>
+		<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?4e2696c26a080b005a29653f41a56622";
+		  var s = document.getElementsByTagName("script")[0];
+		  s.parentNode.insertBefore(hm, s);
+		})();
+		</script>
+		<!-- 代码跟踪 -->
+		<script>
+		     var GetQueryString=function(name) { 
+		      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i"); 
+		      var r = window.location.search.substr(1).match(reg);
+		      if (r != null) return unescape(r[2]); return null; 
+		    } 
+		    if(GetQueryString("area")){
+		        console.log(GetQueryString("area"))
+		        $('#fenxiao').val(GetQueryString("area"))
+		    }else{
+		        $('#fenxiao').val("默认")
+		    }
+		    if(GetQueryString("uid")){
+		        console.log(GetQueryString("uid"))
+		        $('#geneal').val(GetQueryString("uid"))
+		    }else{
+		        $('#geneal').val("默认")
+		    }
+		</script>
+		<script type="text/javascript" src="http://www.offcn.com/statics/js/bdtj_bj.js"></script>
+		<script type="text/javascript" src="http://www.offcn.com/statics/js/bdbot.js"></script>
+		<script language="javascript" src="http://www.offcn.com/statics/js/bdtj20161014.js"></script>
+		<script type="text/javascript" src="http://bj.offcn.com/statics/js/zgjs/xiaoneng.js"></script>
+	</body>
+</html>
